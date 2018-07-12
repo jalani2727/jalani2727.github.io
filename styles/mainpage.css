@@ -8,7 +8,7 @@ html {
   
   body {
     background: #efefef;
-    font-family: Lato, sans-serif;
+    font-family: Lato, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #4e4e4e;
     margin: 0;
     padding: 0;
@@ -103,8 +103,8 @@ html {
   }
   
   #hero {
-    background: url('../images/right-side-image.jpg') left center no-repeat black;
-    background-size: 95%;
+    background: url('../images/scribbeled\ heart\ vector.png') left center no-repeat black;
+    background-size: 45%;
     min-height: 320px;
     color: gray;
     font-size: 1.6em;
