@@ -1,0 +1,7 @@
+.theBackground {
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/folio-background-image\ .png");
+    background-size: cover;
+    border: 1px solid red;
+}
