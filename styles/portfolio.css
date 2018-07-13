@@ -40,7 +40,7 @@ html {
     box-decoration-break: clone;
   }
   
-  #header {
+  #sideHeader {
     position: fixed;
     width: 125px;
     background: rgb(110, 21, 21);
@@ -58,12 +58,12 @@ html {
   
   
   
-  #header ul {
+  #sideHeader ul {
     list-style-type: none;
     width: inherit;
   }
   
-  #header ul li {
+  #sideHeader ul li {
     padding: 0 12px 3px 0;
     white-space: nowrap;
     font-size: 0.98em;
@@ -116,17 +116,18 @@ html {
     padding-right: 2%;
   }
   #content section {
-      padding-left: 10px;
+      padding-left: 1em;
+      padding-bottom: 3em
   }
   
   
   @media screen and (max-width: 640px) {
-    #header {
+    #sideHeader {
       height: 125px;
       display: table;
       width: 100%;
     }
-    #header ul li {
+    #sideHeader ul li {
       display: inline;
     }
     #content  {
