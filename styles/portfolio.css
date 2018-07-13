@@ -9,7 +9,7 @@ html {
   body {
     background: #efefef;
     font-family: Lato, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #4e4e4e;
+    color: #ffffff;
     margin: 0;
     padding: 0;
   }
@@ -18,10 +18,7 @@ html {
     margin: 1em;
     padding: 1em;
   }
-  h1,
-  h2,
-  h3,
-  h4 {}
+
   
   a {
     text-decoration: none;
@@ -34,7 +31,7 @@ html {
   
   .highlight-inline {
     display: inline;
-    background-color: black;
+    background-color: white;
     color: white;
     padding: 2px;
     line-height: 1.62em;
@@ -55,7 +52,7 @@ html {
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px 0 5px rgba(255, 255, 255, 0.25);
     color: rgb(255, 254, 254);
   }
   
@@ -74,7 +71,9 @@ html {
     text-align: right;
   }
   
-  #head footer {}
+  #head footer {
+      /* lol */
+  }
   
   #logo {
     border-radius: 50%;
@@ -97,21 +96,28 @@ html {
   #content {
     font-size: 1.20em;
     font-weight: 300;
-    background: pink;
+    background: black;
     margin-left: 126px;
     padding-left: 0em;
   }
   
   #hero {
-    background: url('../images/scribbeled\ heart\ vector.png') left center no-repeat black;
-    background-size: 45%;
+    background: url('../images/roses1.png') left center no-repeat white;
+    background-size: 85%;
     min-height: 320px;
-    color: gray;
+    color: rgb(110, 21, 21);
+    text-shadow:
+		-1px -1px 0 rgb(224, 223, 223),
+		1px -1px 0 rgb(255,255,255),
+		-1px 1px 0 rgb(255,255,255),
+		1px 1px 0 rgb(255,255,255);
     font-size: 1.6em;
     text-align: right;
     padding-right: 2%;
   }
-  
+  #content section {
+      padding-left: 10px;
+  }
   
   
   @media screen and (max-width: 640px) {
@@ -127,4 +133,12 @@ html {
       margin-left: 0;
       margin-top: 125px;
     }
+    #hero {
+        min-height: 150px;
+        background-size: 110%;
+    }
+    #hero h1, #hero h2{
+        display:none;
+    }
+
   }
