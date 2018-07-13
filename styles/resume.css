@@ -5,7 +5,7 @@ header{
     padding-top:8px;
 }
 a {
-    color:rgb(189, 32, 32);
+    color: rgb(229, 175, 28);
 }
 h1 {
     font-size: 29px;
@@ -14,7 +14,7 @@ h1 {
 header h2{
     font-weight: bold;
     font-size: 75px;
-    color: #E55B1C;
+    color: rgb(189, 32, 32);
 }
 h2 {
     font-weight: bold;
@@ -22,7 +22,7 @@ h2 {
 }
 h3 {
     font-size: 13px;
-    color: #E55B1C;
+    color: rgb(229, 175, 28);
 }
 
 ul {
@@ -54,4 +54,19 @@ ul {
 #resumecontent  {
     padding-left: 1em;
     padding-bottom: 3em
+}
+
+
+.col-lg-3 section a{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(189, 32, 32);
+}
+
+#rightSide {
+    background-color: rgb(229, 175, 28);
+}
+
+.contactInfo{
+    text-align: center;
 }
