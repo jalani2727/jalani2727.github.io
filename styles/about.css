@@ -18,16 +18,25 @@
     font-family: 'LemonJelly';
     font-size: 100px;
   }  
+section h2 {
+  color: pink;
+  text-align: center;
+}
 #rightHeader h2{
   margin-top: 95px;
   font-family: 'LemonJelly';
   font-size: 75px;
 }
-
+section h3 {
+  color: pink;
+  font-size:15px;
+  text-align: center;
+}
 #projectLink {
-  color: rgb(110, 21, 21);
+  color: pink;
   font-family: "LemonJelly";
   font-size: 100px;
+
 }
 
 .tldrButton{
