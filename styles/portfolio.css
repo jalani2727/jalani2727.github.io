@@ -101,20 +101,28 @@ html {
     padding-left: 0em;
   }
   
-  #hero {
+  #rightHeader {
     background: url('../images/roses1.png') left center no-repeat white;
-    background-size: 85%;
+    background-size: 55%;
     min-height: 320px;
     color: rgb(110, 21, 21);
     text-shadow:
-		-1px -1px 0 rgb(224, 223, 223),
-		1px -1px 0 rgb(255,255,255),
-		-1px 1px 0 rgb(255,255,255),
-		1px 1px 0 rgb(255,255,255);
+		-2px -2px 0 rgb(224, 223, 223),
+		2px -2px 0 rgb(255,255,255),
+		-2px 2px 0 rgb(255,255,255),
+		2px 2px 0 rgb(255,255,255);
     font-size: 1.6em;
     text-align: right;
     padding-right: 2%;
   }
+#rightHeader h1{
+    margin-top: 0;
+    font-size: 75px;
+  }  
+#rightHeader h2{
+  margin-top: 95px;
+}
+
   #content section {
       padding-left: 1em;
       padding-bottom: 3em
@@ -134,11 +142,11 @@ html {
       margin-left: 0;
       margin-top: 125px;
     }
-    #hero {
+    #rightHeader {
         min-height: 150px;
         background-size: 110%;
     }
-    #hero h1, #hero h2{
+    #rightHeader h1, #rightHeader h2{
         display:none;
     }
 
