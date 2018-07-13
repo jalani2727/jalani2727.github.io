@@ -1,0 +1,25 @@
+#rightHeader {
+    background: url('../images/roses1.png') left center no-repeat white;
+    background-size: 55%;
+    min-height: 320px;
+    color: rgb(110, 21, 21);
+    text-shadow:
+		-2px -2px 0 rgb(224, 223, 223),
+		2px -2px 0 rgb(255,255,255),
+		-2px 2px 0 rgb(255,255,255),
+		2px 2px 0 rgb(255,255,255);
+    font-size: 1.6em;
+    text-align: right;
+    padding-right: 2%;
+  }
+#rightHeader h1{
+    margin-top: 0;
+    
+    font-family: 'LemonJelly';
+    font-size: 100px;
+  }  
+#rightHeader h2{
+  margin-top: 95px;
+  font-family: 'LemonJelly';
+  font-size: 75px;
+}
