@@ -23,3 +23,16 @@
   font-family: 'LemonJelly';
   font-size: 75px;
 }
+
+#projectLink {
+  color: rgb(110, 21, 21);
+  font-family: "LemonJelly";
+  font-size: 100px;
+}
+
+.tldrButton{
+  color:rgb(110, 21, 21);
+}
+.tldr p{
+  display: none;
+}
