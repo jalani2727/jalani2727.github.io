@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "LemonJelly"; 
+  src: url("../styles/Fonts/billy-argel_lemon-jelly-personal-use/Lemon\ Jelly\ Personal\ Use.ttf");
+}
+
 html {
     font-size: 100%;
   }
@@ -60,7 +65,7 @@ html {
   
   #sideHeader ul {
     list-style-type: none;
-    width: inherit;
+    width: 90%;
   }
   
   #sideHeader ul li {
@@ -71,7 +76,7 @@ html {
     text-align: right;
   }
   
-  #head footer {
+  #sideHeader footer {
       /* lol */
   }
   
@@ -100,6 +105,10 @@ html {
     margin-left: 126px;
     padding-left: 0em;
   }
+  #content section {
+    padding-left: 1em;
+    padding-bottom: 3em
+}
   
   #rightHeader {
     background: url('../images/roses1.png') left center no-repeat white;
@@ -117,16 +126,17 @@ html {
   }
 #rightHeader h1{
     margin-top: 0;
-    font-size: 75px;
+    
+    font-family: 'LemonJelly';
+    font-size: 100px;
   }  
 #rightHeader h2{
   margin-top: 95px;
+  font-family: 'LemonJelly';
+  font-size: 75px;
 }
 
-  #content section {
-      padding-left: 1em;
-      padding-bottom: 3em
-  }
+
   
   
   @media screen and (max-width: 640px) {
