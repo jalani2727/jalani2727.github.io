@@ -61,25 +61,16 @@ html {
     box-shadow: 3px 0 5px rgba(255, 255, 255, 0.25);
     color: rgb(255, 254, 254);
   }
-  
-  
-  
   #sideHeader ul {
     list-style-type: none;
     width: 90%;
-    
   }
-  
   #sideHeader ul li {
     padding: 0 4px 3px 0;
     white-space: nowrap;
     font-size: 0.98em;
     font-weight: 700;
     text-align: right;
-  }
-  
-  #sideHeader footer {
-      /* lol */
   }
   
   #logo {
@@ -101,14 +92,14 @@ html {
     background: #404040;
   }
   
-  #content {
+  .content {
     font-size: 1.20em;
     font-weight: 300;
     background: black;
     margin-left: 126px;
     padding-left: 0em;
   }
-  #content section  {
+  .content section  {
     padding-left: 1em;
     padding-bottom: 3em
 }
