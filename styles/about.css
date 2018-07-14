@@ -52,13 +52,13 @@ section h3 {
 }
 
 .tldrButton{
-  
+  color:rgb(110, 21, 21);
 }
-.tldr{
+.tldrContent{
   display: none;
 }
-.fullContent{
-  color:rgb(110, 21, 21);
+.fullEssay{
+  
 }
 i {
   text-align: center;
