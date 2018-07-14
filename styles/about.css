@@ -1,4 +1,4 @@
-#rightHeader {
+.rightHeader {
     background: url('../images/roses1.png') left center no-repeat white;
     background-size: 55%;
     min-height: 320px;
@@ -7,29 +7,38 @@
 		-2px -2px 0 rgb(224, 223, 223),
 		2px -2px 0 rgb(255,255,255),
 		-2px 2px 0 rgb(255,255,255),
-		2px 2px 0 rgb(255,255,255);
+    2px 2px 0 rgb(255,255,255);
+  
     font-size: 1.6em;
     text-align: right;
     padding-right: 2%;
   }
-#rightHeader h1{
+.rightHeader h1{
     margin-top: 0;
     
     font-family: 'LemonJelly';
     font-size: 150px;
-    
-  }  
+  }
+.rightHeader h2{
+    margin-top: 50px;
+    font-family: 'LemonJelly';
+    font-size: 75px;
+}
+.rightHeader i{
+  margin-top: 10px;
+  font-size: 25px;
+}
+
 section h2 {
   color: rgb(229, 175, 28);
   text-align: center;
   font-size: 45px;
   font-family: 'LemonJelly';
 }
-#rightHeader h2{
-  margin-top: 95px;
-  font-family: 'LemonJelly';
-  font-size: 75px;
+section button {
+  color:rgb(110, 21, 21);
 }
+
 section h3 {
   color: rgb(229, 175, 28);
   font-size:15px;
@@ -43,8 +52,14 @@ section h3 {
 }
 
 .tldrButton{
+  
+}
+.tldr{
+  display: none;
+}
+.fullContent{
   color:rgb(110, 21, 21);
 }
-.tldr p{
-  display: none;
+i {
+  text-align: center;
 }
