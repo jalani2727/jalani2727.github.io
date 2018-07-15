@@ -11,6 +11,7 @@ header{
     font-weight: bold;
     font-style: normal;
     font-size: 30px;
+    letter-spacing: 1.4px;
 
     padding-top:8px;
     color: rgb(229, 175, 28);
@@ -36,9 +37,11 @@ h3 {
 }
 
 section ul {
-    font-size: 15px;
+    font-size: 18px;
 }
-
+p {
+    font-size: 18px;
+}
 
 .imageContainer {
     padding-top:8px;
