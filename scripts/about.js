@@ -48,7 +48,7 @@ $(function(){ // <-- shorthand for $(document).ready
 
 // yaaaaaaaaay
    $(".tldrButton").click(function(){
-       $(".fullEssay, .tldrContent").fadeToggle(500);
+       $(".fullEssay, .tldrContent").fadeToggle(300);
    });
 
 
