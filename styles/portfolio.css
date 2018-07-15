@@ -23,7 +23,6 @@ html {
     margin: 1em;
     padding: 1em;
   }
-
   
   a {
     text-decoration: none;
@@ -96,7 +95,7 @@ html {
     font-size: 1.20em;
     font-weight: 300;
     background: black;
-    margin-left: 126px;
+    margin-left: 126px !important;
     padding-left: 0em;
   }
   .content section  {
