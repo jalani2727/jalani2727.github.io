@@ -1,5 +1,7 @@
 $(function(){ // <-- shorthand for $(document).ready
-//    http-server -c-1
+
+//    http-server -c-1 to run a server to make these functions work. why exactly?
+
     // $('a[href="about.html"]').click(function(e){
     //     e.preventDefault();
     //     console.log("default prevented");
@@ -34,7 +36,7 @@ $(function(){ // <-- shorthand for $(document).ready
 
 
 
-// About content switching 
+// About Section content switching 
     
     
 //     $(".tldrButton").on("click", function(){
