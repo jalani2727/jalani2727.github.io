@@ -248,7 +248,7 @@ fieldset[disabled] .btn-theme {
 
 .btn-default-bg {
   color: #515769;
-  background: #f3f4f5;
+  background: rgb(229, 175, 28);
   border-color: transparent;
   border-width: 0;
 }

@@ -56,7 +56,7 @@ section h3 {
 .imageContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: initial;
     justify-content: space-evenly;
 
     padding-top: 8px;
