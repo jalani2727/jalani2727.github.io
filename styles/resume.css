@@ -7,11 +7,11 @@ header{
     align-items: center;
     justify-content: space-between;
 
-    font-family: 'LemonJelly';
+    font-family: 'CaviarItalic';
     font-weight: bold;
     font-style: normal;
     font-size: 30px;
-    letter-spacing: 1.4px;
+    /* letter-spacing: 1.4px; */
 
     padding-top:8px;
     color: rgb(229, 175, 28);
@@ -20,9 +20,9 @@ a {
     color: rgb(229, 175, 28);
 }
 h1 {
-    font-family: 'LemonJelly';
-    font-size: 50px;
-    color: rgb(189, 32, 32);
+    font-family: 'CaviarBold';
+    font-size: 30px;
+    color: rgb(165, 27, 27);
 }
 
 h2 {
@@ -37,10 +37,10 @@ h3 {
 }
 
 section ul {
-    font-size: 18px;
+    font-size: 14px;
 }
 p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .imageContainer {
