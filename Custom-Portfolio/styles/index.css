@@ -1,0 +1,84 @@
+.rightHeader {
+    background: url('../images/roses1.png') left center no-repeat white;
+    background-size: 55%;
+    min-height: 320px;
+    color: rgb(110, 21, 21);
+    text-shadow:
+		-2px -2px 0 rgb(224, 223, 223),
+		2px -2px 0 rgb(255,255,255),
+		-2px 2px 0 rgb(255,255,255),
+    2px 2px 0 rgb(255,255,255);
+  
+    font-size: 1.6em;
+    text-align: right;
+    padding-right: 2%;
+  }
+.rightHeader h1{
+    margin-top: 0;
+    
+    font-family: 'CaviarDreams';
+    font-size: 125px;
+  }
+.rightHeader h2{
+    margin-top: 50px;
+    font-family: 'CaviarDreams';
+    font-size: 55px;
+    text-align: center;
+}
+.rightHeader i{
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+section h2 {
+  color: rgb(229, 175, 28);
+  text-align: center;
+  font-size: 45px;
+  font-family: 'CaviarDreams';
+}
+section button {
+  color:rgb(110, 21, 21);
+}
+
+section h3 {
+  color: rgb(229, 175, 28);
+  font-size:15px;
+  text-align: center;
+}
+.projectLink {
+  color: rgb(229, 175, 28);
+  font-family: "CaviarDreams";
+  font-size: 40px;
+  margin-left: 10px;
+
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: space-evenly;
+
+    padding-top: 8px;
+    height: 250px;
+}
+.img-fluid {
+  object-fit: contain;
+  height:80%;
+
+  /* border: 4px solid rgb(189, 32, 32); */
+  /* border-radius: 50%; */
+}
+
+.tldrButton{
+  color:rgb(110, 21, 21);
+}
+.tldrContent{
+  display: none;
+}
+.fullEssay{
+  margin-left: 10px;
+}
+i {
+  text-align: center;
+}
