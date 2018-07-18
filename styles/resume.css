@@ -7,11 +7,19 @@ header{
     align-items: center;
     justify-content: space-between;
 
+<<<<<<< HEAD
     font-family: 'CaviarItalic';
     font-weight: bold;
     font-style: normal;
     font-size: 30px;
     /* letter-spacing: 1.4px; */
+=======
+    font-family: 'LemonJelly';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 1.4px;
+>>>>>>> 99f36c265a6c6d7d8ddfc81bd60124dc15090dfd
 
     padding-top:8px;
     color: rgb(229, 175, 28);
@@ -20,9 +28,15 @@ a {
     color: rgb(229, 175, 28);
 }
 h1 {
+<<<<<<< HEAD
     font-family: 'CaviarBold';
     font-size: 30px;
     color: rgb(165, 27, 27);
+=======
+    font-family: 'LemonJelly';
+    font-size: 50px;
+    color: rgb(189, 32, 32);
+>>>>>>> 99f36c265a6c6d7d8ddfc81bd60124dc15090dfd
 }
 
 h2 {
@@ -37,10 +51,17 @@ h3 {
 }
 
 section ul {
+<<<<<<< HEAD
     font-size: 14px;
 }
 p {
     font-size: 14px;
+=======
+    font-size: 18px;
+}
+p {
+    font-size: 18px;
+>>>>>>> 99f36c265a6c6d7d8ddfc81bd60124dc15090dfd
 }
 
 .imageContainer {

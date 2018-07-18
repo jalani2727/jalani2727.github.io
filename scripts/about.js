@@ -1,7 +1,11 @@
 $(function(){ // <-- shorthand for $(document).ready
+<<<<<<< HEAD
 
 //    http-server -c-1 to run a server to make these functions work. why exactly?
 
+=======
+//    http-server -c-1
+>>>>>>> 99f36c265a6c6d7d8ddfc81bd60124dc15090dfd
     // $('a[href="about.html"]').click(function(e){
     //     e.preventDefault();
     //     console.log("default prevented");
@@ -36,7 +40,11 @@ $(function(){ // <-- shorthand for $(document).ready
 
 
 
+<<<<<<< HEAD
 // About Section content switching 
+=======
+// About content switching 
+>>>>>>> 99f36c265a6c6d7d8ddfc81bd60124dc15090dfd
     
     
 //     $(".tldrButton").on("click", function(){
