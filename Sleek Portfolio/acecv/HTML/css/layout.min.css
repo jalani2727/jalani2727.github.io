@@ -35,3 +35,22 @@ strong {
   .tldrContent{
     display: none;
   }
+
+
+.scrollmenu {
+    background-color: white;
+    overflow-y: scroll;
+    
+}
+
+.scrollmenu i {
+    display: inline-block;
+    color: rgb(110, 21, 21);
+    text-align: center;
+    
+    padding: 14px;
+    text-decoration: none;
+
+    font-size:5em;
+}
+
