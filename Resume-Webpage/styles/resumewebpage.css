@@ -16,7 +16,7 @@ body{
     margin-bottom: 10px;
 
     border-top:45px solid rgb(110,21,21);
-    border-bottom:45px solid rgb(110,21,21);
+    /* border-bottom:45px solid rgb(110,21,21); */
    font-family: "CaviarBold";
     /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
