@@ -219,7 +219,7 @@ h4 {
   border-color: transparent;
   border-width: 0;
 }
-.btn-white-bg:hover, .btn-white-bg:focus, .btn-white-bg.focus {
+.btn-white-bg:hover, .btn-white-bg.focus {
   color: #fff;
   background: #17bed2;
   border-color: transparent;
@@ -231,7 +231,7 @@ h4 {
   border-color: #fff;
   border-width: 2px;
 }
-.btn-white-brd:hover, .btn-white-brd:focus, .btn-white-brd.focus {
+.btn-white-brd:hover, .btn-white-brd.focus {
   color: #515769;
   background: #fff;
   border-color: #fff;
@@ -243,7 +243,7 @@ h4 {
   border-color: transparent;
   border-width: 0;
 }
-.btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
+.btn-default-bg:hover, .btn-default-bg.focus {
   color: #fff;
   background: #17bed2;
   border-color: transparent;
@@ -698,8 +698,6 @@ fieldset[disabled] .btn-theme {
   border-width: 0;
 }
 
-.btn-default-bg.focus,
-.btn-default-bg:focus,
 .btn-default-bg:hover {
   color: #515769;
   background: rgb(229, 175, 28);
@@ -2094,6 +2092,10 @@ fieldset[disabled] .btn-theme {
   padding-bottom: 80px;
 }
 
+.content-lg {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 /*------------------------------------------------------------------
     [Full Width]
@@ -2449,6 +2451,75 @@ fieldset[disabled] .btn-theme {
   }
   .xs-text-right {
     text-align: right;
+  }
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  max-width: 100%;
+  height: auto;
+}
+
+.figure {
+  display: inline-block;
+}
+
+.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.figure-caption {
+  font-size: 0.875em;
+  color: var(--bs-secondary-color);
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
   }
 }
 .content-lg {

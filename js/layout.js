@@ -150,3 +150,7 @@ var Layout = function () {
 $(document).ready(function() {
     Layout.init();
 });
+
+$(".tldrButton").click(function(){
+    $(".fullEssay, .tldrContent").toggle();
+});
