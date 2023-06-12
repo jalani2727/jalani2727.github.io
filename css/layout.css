@@ -1330,3 +1330,56 @@ fieldset[disabled] .btn-theme {
     text-align: right;
   }
 }
+
+.content-lg{
+  border-bottom: 2px solid rgb(110,21,21);
+
+}
+
+.margin-b-30 a{
+  bottom: 10px;
+}
+
+.fullEssay p{
+  color: #515769;
+}
+strong {
+  color: rgb(110, 21, 21);
+}
+
+#logo {
+  /* border-radius: 50%; */
+  width: 76px;
+  height: 76px;
+  margin: -10px auto;
+  background: rgb(110, 21, 21);
+  text-align: center;
+  font-family:Hind,sans-serif;
+  font-size: 36px;
+  line-height: 82px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.tldrContent{
+  display: none;
+}
+
+
+.scrollmenu {
+  background-color: white;
+  overflow-y: scroll;
+  
+}
+
+.scrollmenu i {
+  display: inline-block;
+  color: rgb(110, 21, 21);
+  text-align: center;
+  
+  padding: 14px;
+  text-decoration: none;
+
+  font-size:5em;
+}
