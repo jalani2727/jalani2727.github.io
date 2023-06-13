@@ -46,7 +46,6 @@
 // Layout
 // =================================================================
 
-@import 'minified/layout-min'; // Footer
 @import 'layout/footer'; // Footer
 @import 'layout/header'; // Header
 
@@ -129,4 +128,14 @@ strong {
     text-decoration: none;
 
     font-size:5em;
+}
+
+.row {
+	flex-wrap: wrap;
+    display: flex;
+
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }

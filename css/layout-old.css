@@ -115,8 +115,8 @@ a:hover {
 
 .link:after {
   position: absolute;
-  top: 8px;
-  right: -15px;
+  top: 7px;
+  left: 83px;
   width: 9px;
   height: 2px;
   background: rgb(110, 21, 21);
@@ -1199,4 +1199,4 @@ fieldset[disabled] .btn-theme {
   .xs-text-right {
     text-align: right;
   }
-}/*# sourceMappingURL=layout-min.css.map */
+}/*# sourceMappingURL=layout-old.css.map */
