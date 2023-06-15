@@ -1320,6 +1320,42 @@ h4 {
     max-width: 1320px;
   }
 }
+.carousel-control {
+  height: 0;
+  top: unset;
+  opacity: 0.7;
+  bottom: -20px;
+}
+@media screen and (min-width: 768px) {
+  .carousel-control {
+    bottom: -15px;
+  }
+}
+.carousel-control span {
+  color: rgb(110, 21, 21);
+}
+.carousel-control .glyphicon-chevron-left {
+  left: 100%;
+}
+.carousel-control .glyphicon-chevron-right {
+  right: 100%;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
+.carousel-indicators li {
+  border: 1px solid rgb(110, 21, 21);
+}
+.carousel-indicators .active {
+  background-color: rgb(110, 21, 21);
+}
+@media screen and (min-width: 768px) {
+  .carousel-indicators {
+    bottom: -45px;
+  }
+}
+
 .content-lg {
   border-bottom: 2px solid rgb(110, 21, 21);
 }
@@ -1383,4 +1419,9 @@ strong {
 .row > [class*=col-] {
   display: flex;
   flex-direction: column;
+}
+
+.responsive-iframe {
+  display: block;
+  max-width: 100%;
 }/*# sourceMappingURL=layout.css.map */

@@ -72,6 +72,9 @@
 @import "../node_modules/bootstrap/scss/images";
 @import "../node_modules/bootstrap/scss/containers";
 
+// Bootstrap Overrides
+@import "./bootstrap-overrides";
+
 
 .content-lg{
     border-bottom: 2px solid rgb(110,21,21);
@@ -138,4 +141,9 @@ strong {
 .row > [class*='col-'] {
   display: flex;
   flex-direction: column;
+}
+
+.responsive-iframe {
+	display: block;
+    max-width: 100%;
 }

@@ -1,0 +1,32 @@
+.carousel-control {
+    height: 0;
+    top:  unset;
+    opacity: .7;
+    bottom: -20px;
+    @media screen and (min-width: 768px) {
+        bottom: -15px;
+    }
+    span {
+        color:rgb(110,21,21);
+    }
+
+    .glyphicon-chevron-left {
+        left: 100%;
+    }
+    .glyphicon-chevron-right {
+        right: 100%;
+    }
+}
+
+.carousel-indicators {
+    li {
+        border: 1px solid  rgb(110,21,21);
+    }
+    & .active {
+        background-color: rgb(110,21,21);
+    }
+    bottom: -40px;
+    @media screen and (min-width: 768px) {
+        bottom: -45px;
+    }
+}
