@@ -124,7 +124,7 @@ var Layout = function () {
             // initial setup for fixed header
             handleHeaderOnScroll();
             handleOnePageHeader(); // initial header
-            handleCarousel(); // initial setup for carousel
+            // handleCarousel(); // initial setup for carousel
             handleHeight(); // initial setup for group element height
             
             // handle minimized header on page scroll
