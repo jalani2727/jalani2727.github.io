@@ -407,7 +407,6 @@ fieldset[disabled] .btn-theme {
 @media (max-width:768px) {
     .promo-block {
         text-align: center;
-        padding-top: 170px
     }
 
     .promo-block .promo-block-img-wrap {
@@ -540,7 +539,9 @@ fieldset[disabled] .btn-theme {
     height: 100px;
     float: left;
     max-height: 95px;
-    line-height: 65px
+    line-height: 65px;
+    display: flex;
+    align-items: center;
 }
 
 .header .logo-wrap {
