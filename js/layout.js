@@ -157,5 +157,5 @@ $(document).ready(function() {
 $(".tldrButton").click(function(){
     $(".fullEssay, .tldrContent").toggle();
     $(this).toggleClass('cant-read');
-    $(this).hasClass('cant-read') ? $(this).html("More Words!") : $(this).html("Less Words!");
+    $(this).hasClass('cant-read') ? $(this).html("More Details") : $(this).html("Less Words, Please");
 });
