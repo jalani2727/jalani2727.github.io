@@ -1429,7 +1429,7 @@ strong {
 }
 @media only screen and (max-width: 768px) {
   .responsive-iframe {
-    height: 255px;
+    height: 230px;
   }
 }
 
