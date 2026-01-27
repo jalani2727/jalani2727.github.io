@@ -121,12 +121,6 @@ h4 {
   font-size: 22px;
 }
 
-::-moz-selection {
-  color: #fff;
-  background: #17bed2;
-  text-shadow: none;
-}
-
 ::selection {
   color: #fff;
   background: #17bed2;
@@ -179,10 +173,12 @@ h4 {
   border-style: solid;
   white-space: nowrap;
   vertical-align: middle;
+  -ms-touch-action: manipulation;
   touch-action: manipulation;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 .btn-theme:focus, .btn-theme:active:focus, .btn-theme.active:focus, .btn-theme.focus, .btn-theme:active.focus, .btn-theme.active.focus {
@@ -373,6 +369,8 @@ h4 {
 }
 .service .service-element,
 .service .service-info {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   transition-duration: 300ms;
   transition-property: all;
@@ -386,12 +384,16 @@ h4 {
 }
 .service:hover .service-element {
   opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 .service:hover .service-info {
+  -webkit-transform: translate3d(0, -30%, 0);
+  -moz-transform: translate3d(0, -30%, 0);
   transform: translate3d(0, -30%, 0);
   transition-duration: 300ms;
   transition-property: all;
@@ -452,6 +454,8 @@ h4 {
   width: 10px;
   height: 1px;
   bottom: 10px;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
   transform: rotate(0);
   transition-duration: 300ms;
   transition-property: all;
@@ -461,6 +465,8 @@ h4 {
   width: 16px;
   height: 1px;
   top: -5px;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
   transform: rotate(0);
   transition-duration: 300ms;
   transition-property: all;
@@ -684,6 +690,8 @@ h4 {
   visibility: hidden;
   opacity: 0;
   padding: 5px;
+  -webkit-transform: translate3d(0, 50px, 0);
+  -moz-transform: translate3d(0, 50px, 0);
   transform: translate3d(0, 50px, 0);
   transition-duration: 300ms;
   transition-property: all;
@@ -703,6 +711,8 @@ h4 {
 .back-to-top.back-to-top-is-visible {
   visibility: visible;
   opacity: 0.6;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   transition-duration: 300ms;
   transition-property: all;
@@ -1341,14 +1351,14 @@ h4 {
   right: 100%;
 }
 
-.carousel-indicators {
-  bottom: -40px;
-}
 .carousel-indicators li {
   border: 1px solid rgb(110, 21, 21);
 }
 .carousel-indicators .active {
   background-color: rgb(110, 21, 21);
+}
+.carousel-indicators {
+  bottom: -40px;
 }
 @media screen and (min-width: 768px) {
   .carousel-indicators {
@@ -1442,4 +1452,6 @@ strong {
   width: 100%;
   height: 100%;
   border: none;
-}/*# sourceMappingURL=layout.css.map */
+}
+
+/*# sourceMappingURL=layout.css.map */

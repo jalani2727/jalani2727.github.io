@@ -6,10 +6,12 @@
     "scripts": {
         "minify:js": "uglifyjs ./js/layout.js --compress --mangle --warn --output ./js/layout.min.js",
         "build": "uglifyjs-folder ./js --compress -eo ./js-min",
-        "build-singleJS": "uglifyjs-folder ./js --compress -o ./js-min/main.min.js"
+        "build-singleJS": "uglifyjs-folder ./js --compress -o ./js-min/main.min.js",
+        "compile-sass": "sass --watch scss:css"
     },
     "author": "jalani2727",
     "devDependencies": {
+        "sass": "^1.97.3",
         "uglify-js": "^3.15.5",
         "uglifyjs-folder": "^3.2.0"
     },

@@ -146,7 +146,8 @@ h3 > a,
 h4 > a,
 h5 > a,
 h6 > a {
-  color: #515769;
+  color: #002677;
+  text-decoration: underline;
 }
 
 h1 > a:hover,

@@ -19,17 +19,19 @@
   right: 100%;
 }
 
-.carousel-indicators {
-  bottom: -40px;
-}
 .carousel-indicators li {
   border: 1px solid rgb(110, 21, 21);
 }
 .carousel-indicators .active {
   background-color: rgb(110, 21, 21);
 }
+.carousel-indicators {
+  bottom: -40px;
+}
 @media screen and (min-width: 768px) {
   .carousel-indicators {
     bottom: -45px;
   }
-}/*# sourceMappingURL=bootstrap-overrides.css.map */
+}
+
+/*# sourceMappingURL=bootstrap-overrides.css.map */
