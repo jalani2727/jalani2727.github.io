@@ -58,28 +58,40 @@ var Layout = function () {
     }
 
     // // handle carousel
-    // var handleCarousel = function() {
-    //     var $item = $('.carousel .item'); 
-    //     var $wHeight = $(window).height();
-    //     $item.eq(0).addClass('active');
-    //     $item.height($wHeight); 
-    //     $item.addClass('full-screen');
+    var handleCarousel = function() {
+         // Handle each carousel individually
+        $('.carousel').each(function() {
+            var $carousel = $(this);
+            var $item = $carousel.find('.item');
+            
+            $item.eq(0).addClass('active');
+            $item.addClass('full-screen');
+            
+            // Disable carousel controls if only one item in THIS carousel
+            if ($item.length <= 1) {
+                $carousel.find('.carousel-control').hide();
+                $carousel.find('.carousel-indicators').hide();
+                $carousel.carousel('pause');
+            }
+        });
 
-    //     $('.carousel img').each(function() {
-    //         var $src = $(this).attr('src');
-    //         var $color = $(this).attr('data-color');
-    //         $(this).parent().css({
-    //             'background-image' : 'url(' + $src + ')',
-    //             'background-color' : $color
-    //         });
-    //         $(this).remove();
-    //     });
+        
 
-    //     $(window).on('resize', function (){
-    //         $wHeight = $(window).height();
-    //         $item.height($wHeight);
-    //     });
-    // }
+        // $('.carousel img').each(function() {
+        //     var $src = $(this).attr('src');
+        //     var $color = $(this).attr('data-color');
+        //     $(this).parent().css({
+        //         'background-image' : 'url(' + $src + ')',
+        //         'background-color' : $color
+        //     });
+        //     $(this).remove();
+        // });
+
+        // $(window).on('resize', function (){
+        //     $wHeight = $(window).height();
+        //     $item.height($wHeight);
+        // });
+    }
 
     // handle group element heights
     // var handleHeight = function() {
@@ -124,7 +136,7 @@ var Layout = function () {
             // initial setup for fixed header
             handleHeaderOnScroll();
             handleOnePageHeader(); // initial header
-            // handleCarousel(); // initial setup for carousel
+            handleCarousel(); // initial setup for carousel
             handleHeight(); // initial setup for group element height
             
             // handle minimized header on page scroll
