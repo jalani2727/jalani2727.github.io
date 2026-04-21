@@ -114,15 +114,15 @@ strong {
 .scrollmenu {
     background-color: white;
     display: flex;
-    justify-content: center;
+    overflow-x: scroll;
+    cursor: grab;
+
+    /* Custom Scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: rgb(110, 21, 21) white;
+    justify-content: start;
 }
 
-@media only screen and (max-width: 768px) {
-    .scrollmenu {
-        justify-content: start;
-        overflow-y: scroll;
-    }
-}
 
 .scrollmenu i {
     display: inline-block;
@@ -132,13 +132,6 @@ strong {
     text-decoration: none;
 
     font-size:5em;
-    
-    overflow-x: scroll;
-    cursor: grab;
-    
-    /* Custom Scrollbar */
-    scrollbar-width: thin;
-    scrollbar-color: var(--color-brand) white;
 }
 
 .row {
